@@ -1,0 +1,33 @@
+<div class="layout-topbar">
+    <a class="layout-topbar-logo" routerLink="wake-sense/home">
+        <img src="../../../assets/images/logo-wakesense.png" class="w-10rem flex-shrink-0" alt="logo">
+    </a>
+
+    <button type="button" title="Menu" #menubutton class="p-link layout-menu-button layout-topbar-button"
+        (click)="layoutService.onMenuToggle()">
+        <i class="pi pi-bars"></i>
+    </button>
+
+    <button type="button" title="Layout" #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button"
+        (click)="layoutService.showProfileSidebar()">
+        <i class="pi pi-ellipsis-v"></i>
+    </button>
+
+    <div #topbarmenu class="layout-topbar-menu"
+        [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+
+        <button type="button" class="p-link layout-topbar-button" routerLink="/login">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M360-240 120-480l240-240 56 56-144 144h488v-160h80v240H272l144 144-56 56Z"/></svg>
+            <span>Logout</span>
+        </button>
+
+
+        <button type="button" class="p-link layout-topbar-button">
+            <i class="pi pi-user"></i>
+            <span>Profile</span>
+        </button>
+
+
+
+    </div>
+</div>

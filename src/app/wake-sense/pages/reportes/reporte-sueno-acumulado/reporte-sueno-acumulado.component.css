@@ -1,0 +1,48 @@
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 150px;
+}
+.incidencias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  height: 80vh;
+}
+
+.circulo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #7862f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.numero {
+  font-size: 36px;
+}
+
+p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
