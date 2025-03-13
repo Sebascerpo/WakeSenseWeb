@@ -1,0 +1,56 @@
+.text-xl {
+  border-radius: 10px;
+}
+
+.submit {
+  background-color: white;
+  color: rgba(139, 80, 234);
+  border-color: black;
+  border-radius: 30px;
+}
+
+.change {
+  border-radius: 10px;
+}
+
+.contenedor-tarjeta {
+  border-radius: 56px;
+  padding: 0.3rem;
+  background: linear-gradient(
+    180deg,
+    rgb(188, 107, 255) 10%,
+    rgba(38, 211, 104, 0) 30%
+  );
+}
+
+.crear-cuenta {
+  color: black;
+  text-decoration: none;
+}
+
+.custom-icon {
+  color: #7862f8 !important; 
+  font-size: 1.2rem !important; 
+  font-weight: bold !important; 
+}
+.surface-ground {
+  background-image: url("../../../../../../assets/images/fondo.avif"); 
+  background-size: cover;
+}
+.surface-card {
+  border-radius: 53px;
+}
+.divider {
+  border-top: 4px solid #ccc;
+}
+.google {
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.imagen {
+  width: 24px;
+  margin-right: 10px;
+}

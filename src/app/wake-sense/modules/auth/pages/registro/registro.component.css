@@ -1,0 +1,61 @@
+.contenedor-tarjeta {
+  max-width: 400px;
+  border-radius: 56px;
+  padding: 0.3rem;
+  background: linear-gradient(
+    180deg,
+    rgb(188, 107, 255) 10%,
+    rgba(38, 211, 104, 0) 30%
+  );
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit {
+  background-color: white;
+  color: rgba(139, 80, 234);
+  border-color: black;
+  border-radius: 30px;
+}
+.crear-cuenta {
+  color: #7862f8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.crear-cuenta:hover {
+  text-decoration: underline;
+}
+.caption {
+  margin-bottom: 30px;
+}
+.upper-segment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.surface-card {
+  border-radius: 53px;
+}
+.divider {
+  border-top: 4px solid #ccc;
+}
+.google {
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.imagen {
+  width: 24px;
+  margin-right: 10px;
+}
+.surface-ground {
+  background-image: url("../../../../../../assets/images/fondo.avif");
+  background-size: cover;
+}
